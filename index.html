@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="es-PY">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7dce5">
+  <meta name="description" content="Descubrí las lámparas, accesorios y piezas personalizadas de Crafteo, hechas en 3D en Asunción, Paraguay.">
+  <title>Crafteo · Catálogo</title>
+  <link rel="icon" href="img/flor.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="catalogo.js"></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="top wrap">
+    <a href="#inicio" class="logo"><img src="img/crafteo.png" width="150" height="40" alt="Crafteo 3D"></a>
+    <nav aria-label="Principal">
+      <a class="nav-link" href="#catalogo">Catálogo</a>
+      <a class="nav-link" href="#pedidos">Personalizados</a>
+      <a class="pill outline" href="https://wa.me/595992446040">WhatsApp <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="contenido">
+    <section class="hero wrap" id="inicio" aria-labelledby="titular">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="signal"></span> Diseñado y hecho en Asunción</p>
+        <h1 id="titular">Piezas<br>con <em>onda.</em></h1>
+        <p class="intro">Lámparas que hacen más lindo tu rincón, accesorios para tu setup y detalles impresos en 3D.</p>
+        <a class="pill dark" href="#catalogo">Explorá el catálogo <span aria-hidden="true">↓</span></a>
+        <p class="payment">Tarjetas de crédito y débito sin recargo</p>
+        <img class="hero-flor" src="img/flor.svg" width="110" height="110" alt="">
+      </div>
+      <figure class="hero-photo">
+        <img src="img/tulia.webp" alt="Lámpara Tulia encendida sobre una mesa de madera, junto a un difusor" width="1000" height="1333" fetchpriority="high">
+        <figcaption><span>Lámpara Tulia</span><small>LUZ CÁLIDA</small></figcaption>
+      </figure>
+    </section>
+    <section class="catalog wrap" id="catalogo" aria-labelledby="titulo-catalogo">
+      <div class="section-head">
+        <div><p class="eyebrow">01 / Catálogo</p><h2 id="titulo-catalogo">Elegí tu favorita.</h2></div>
+        <div class="filters" aria-label="Filtrar productos" hidden>
+          <button type="button" data-filter="todos" aria-pressed="true">Todo</button>
+          <button type="button" data-filter="lamparas" aria-pressed="false">Lámparas</button>
+          <button type="button" data-filter="gamer" aria-pressed="false">Gamer</button>
+        </div>
+      </div>
+      <aside class="promo-banner" aria-label="Promoción Mochi">
+        <p><strong>Mochi en promo:</strong> de <del>Gs. 120.000</del> a <strong>Gs. 100.000</strong>.</p>
+        <a href="#mochi">Ver Mochi ↓</a>
+      </aside>
+      <p id="resultados" class="sr-only" role="status"></p>
+      <div class="grid">
+        <article id="arco" class="card" data-category="lamparas">
+          <a class="card-photo lamp-photo" href="https://wa.me/595992446040?text=Hola%20Crafteo%2C%20me%20interesa%20la%20l%C3%A1mpara%20Arco." aria-label="Consultar por la lámpara Arco">
+            <img src="img/arco.webp" width="338" height="430" alt="Lámpara de base verde en arco con pantalla clara texturada" loading="lazy">
+            <span class="tag">Lámparas</span>
+          </a>
+          <div class="card-copy">
+            <h3>Lámpara Arco</h3>
+            <p>Una base en forma de arco y una pantalla con relieves verticales.</p>
+            <p class="dimensions">24 cm de alto × 17 cm de ancho</p>
+            <div class="card-foot"><span class="price"><strong>Gs. 180.000</strong></span><a class="go" href="https://wa.me/595992446040?text=Hola%20Crafteo%2C%20me%20interesa%20la%20l%C3%A1mpara%20Arco." aria-label="Consultar por la lámpara Arco">↗</a></div>
+          </div>
+        </article>
+        <article id="faro" class="card" data-category="lamparas">
+          <a class="card-photo lamp-photo" href="https://wa.me/595992446040?text=Hola%20Crafteo%2C%20me%20interesa%20la%20l%C3%A1mpara%20Faro." aria-label="Consultar por la lámpara Faro">
+            <img src="img/faro.webp" width="303" height="512" alt="Lámpara alta cilíndrica de luz cálida con base oscura" loading="lazy">
+            <span class="tag">Lámparas</span>
+          </a>
+          <div class="card-copy">
+            <h3>Lámpara Faro</h3>
+            <p>Pantalla alta con luz cálida y una base oscura acanalada.</p>
+            <p class="dimensions">26 cm de alto × Ø 9 cm</p>
+            <div class="card-foot"><span class="price"><strong>Gs. 100.000</strong></span><a class="go" href="https://wa.me/595992446040?text=Hola%20Crafteo%2C%20me%20interesa%20la%20l%C3%A1mpara%20Faro." aria-label="Consultar por la lámpara Faro">↗</a></div>
+          </div>
+        </article>
+        <article id="nube" class="card" data-category="lamparas">
+          <a class="card-photo lamp-photo" href="https://wa.me/595992446040?text=Hola%20Crafteo%2C%20me%20interesa%20la%20l%C3%A1mpara%20Nube." aria-label="Consultar por la lámpara Nube">
+            <img src="img/nube.webp" width="233" height="315" alt="Lámpara con tres formas redondeadas apiladas y base cilíndrica" loading="lazy">
+            <span class="tag">Lámparas</span>
+          </a>
+          <div class="card-copy">
+            <h3>Lámpara Nube</h3>
+            <p>Tres curvas suaves y una luz cálida para la mesa de luz.</p>
+            <p class="dimensions">20 cm de alto × Ø 14 cm</p>
+            <div class="card-foot"><span class="price"><strong>Gs. 130.000</strong></span><a class="go" href="https://wa.me/595992446040?text=Hola%20Crafteo%2C%20me%20interesa%20la%20l%C3%A1mpara%20Nube." aria-label="Consultar por la lámpara Nube">↗</a></div>
+          </div>
+        </article>
+        <article id="mochi" class="card" data-category="lamparas">
+          <a class="card-photo lamp-photo" href="https://wa.me/595992446040?text=Hola%20Crafteo%2C%20me%20interesa%20la%20l%C3%A1mpara%20Mochi." aria-label="Consultar por la lámpara Mochi">
+            <img src="img/mochi.webp" width="564" height="627" alt="Lámpara tipo hongo color marfil, de pantalla acanalada" loading="lazy">
+            <span class="tag">Lámparas</span><span class="tag offer">Promo</span><span class="illustration">Imagen ilustrativa</span>
+          </a>
+          <div class="card-copy">
+            <h3>Lámpara Mochi</h3>
+            <p>Nuestro honguito de pantalla acanalada y base lisa.</p>
+            <p class="dimensions">21,7 cm de alto × Ø 16,1 cm</p>
+            <div class="card-foot"><span class="price"><del aria-label="Precio anterior: Gs. 120.000">Gs. 120.000</del><strong>Gs. 100.000</strong></span><a class="go" href="https://wa.me/595992446040?text=Hola%20Crafteo%2C%20me%20interesa%20la%20l%C3%A1mpara%20Mochi." aria-label="Consultar por la lámpara Mochi">↗</a></div>
+          </div>
+        </article>
+        <article id="tulia" class="card" data-category="lamparas">
+          <a class="card-photo tulia-photo" href="https://wa.me/595992446040?text=Hola%20Crafteo%2C%20me%20interesa%20la%20l%C3%A1mpara%20Tulia." aria-label="Consultar por la lámpara Tulia">
+            <img src="img/tulia.webp" width="1000" height="1333" alt="Lámpara Tulia de pantalla blanca acanalada con base oscura" loading="lazy">
+            <span class="tag">Lámparas</span>
+          </a>
+          <div class="card-copy">
+            <h3>Lámpara Tulia</h3>
+            <p>Luz cálida y una pantalla acanalada para darle un toque acogedor a tu rincón.</p>
+            <p class="dimensions">22 cm de alto × Ø 15 cm</p>
+            <div class="card-foot"><span class="price"><strong>Gs. 140.000</strong></span><a class="go" href="https://wa.me/595992446040?text=Hola%20Crafteo%2C%20me%20interesa%20la%20l%C3%A1mpara%20Tulia." aria-label="Consultar por la lámpara Tulia">↗</a></div>
+          </div>
+        </article>
+        <article id="plisse" class="card" data-category="lamparas">
+          <a class="card-photo lamp-photo" href="https://wa.me/595992446040?text=Hola%20Crafteo%2C%20me%20interesa%20la%20l%C3%A1mpara%20Pliss%C3%A9." aria-label="Consultar por la lámpara Plissé">
+            <img src="img/plisse.webp" width="448" height="667" alt="Lámpara Plissé encendida con pantalla acanalada y base rosa" loading="lazy">
+            <span class="tag">Lámparas</span><span class="illustration">Imagen ilustrativa</span>
+          </a>
+          <div class="card-copy">
+            <h3>Lámpara Plissé</h3>
+            <p>Pantalla plisada de líneas rectas y base rosa.</p>
+            <p class="dimensions">24 cm de alto × Ø 15,5 cm</p>
+            <div class="card-foot"><span class="price"><strong>Gs. 120.000</strong></span><a class="go" href="https://wa.me/595992446040?text=Hola%20Crafteo%2C%20me%20interesa%20la%20l%C3%A1mpara%20Pliss%C3%A9." aria-label="Consultar por la lámpara Plissé">↗</a></div>
+          </div>
+        </article>
+        <article id="wavy" class="card" data-category="lamparas">
+          <a class="card-photo lamp-photo" href="https://wa.me/595992446040?text=Hola%20Crafteo%2C%20me%20interesa%20la%20l%C3%A1mpara%20Wavy." aria-label="Consultar por la lámpara Wavy">
+            <img src="img/wavy.webp" width="680" height="850" alt="Lámpara de pantalla translúcida ondulada con base de tres patas" loading="lazy">
+            <span class="tag">Lámparas</span><span class="illustration">Imagen ilustrativa</span>
+          </a>
+          <div class="card-copy">
+            <h3>Lámpara Wavy</h3>
+            <p>Una pantalla ondulada que dibuja la luz sobre cada curva.</p>
+            <p class="dimensions">22 cm de alto × Ø 15 cm</p>
+            <div class="card-foot"><span class="price"><strong>Gs. 120.000</strong></span><a class="go" href="https://wa.me/595992446040?text=Hola%20Crafteo%2C%20me%20interesa%20la%20l%C3%A1mpara%20Wavy." aria-label="Consultar por la lámpara Wavy">↗</a></div>
+          </div>
+        </article>
+        <article id="retro" class="card" data-category="lamparas">
+          <a class="card-photo lamp-photo" href="https://wa.me/595992446040?text=Hola%20Crafteo%2C%20me%20interesa%20la%20l%C3%A1mpara%20Retro." aria-label="Consultar por la lámpara Retro">
+            <img src="img/retro.webp" width="267" height="350" alt="Lámpara ámbar de cuatro ondas apiladas y textura tramada" loading="lazy">
+            <span class="tag">Lámparas</span>
+          </a>
+          <div class="card-copy">
+            <h3>Lámpara Retro</h3>
+            <p>Cuatro ondas apiladas y una luz ámbar que le da carácter a la mesa.</p>
+            <p class="dimensions">20 cm de alto × 15 cm de ancho</p>
+            <div class="card-foot"><span class="price"><strong>Gs. 170.000</strong></span><a class="go" href="https://wa.me/595992446040?text=Hola%20Crafteo%2C%20me%20interesa%20la%20l%C3%A1mpara%20Retro." aria-label="Consultar por la lámpara Retro">↗</a></div>
+          </div>
+        </article>
+        <article class="card" data-category="gamer">
+          <a class="card-photo" href="https://wa.me/595992446040?text=Hola%20Crafteo%2C%20me%20interesa%20el%20soporte%20Vegeta." aria-label="Consultar por el soporte Vegeta">
+            <img src="img/vegeta.webp" width="850" height="1062" alt="Guante blanco de Vegeta con base azul sosteniendo un mando rojo" loading="lazy">
+            <span class="tag">Gamer</span>
+          </a>
+          <div class="card-copy">
+            <h3>Soporte Vegeta</h3>
+            <p>El guante del príncipe de los saiyajines para tu setup. Compatible con mandos de PS5 y Xbox.</p>
+            <div class="card-foot"><span class="price">Precio a consultar</span><a class="go" href="https://wa.me/595992446040?text=Hola%20Crafteo%2C%20me%20interesa%20el%20soporte%20Vegeta." aria-label="Consultar por el soporte Vegeta">↗</a></div>
+          </div>
+        </article>
+      </div>
+      <p class="note">Las medidas son aproximadas. Consultanos por disponibilidad y opciones de color.</p>
+    </section>
+    <section class="wrap" id="pedidos" aria-labelledby="titulo-pedidos">
+      <div class="custom">
+        <div><p class="eyebrow">02 / Personalizados</p><h2 id="titulo-pedidos">¿Tenés algo en mente?</h2><p>Mandanos tu idea o una foto de referencia y vemos cómo hacerla realidad.</p></div>
+        <a class="pill dark" href="https://wa.me/595992446040?text=Hola%20Crafteo%2C%20quiero%20consultar%20por%20un%20pedido%20personalizado.">Contanos tu idea <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap">
+    <div><strong>Crafteo 3D</strong><p>Asunción · Paraguay</p></div>
+    <div><strong>Aceptamos tarjetas de crédito y débito sin recargo</strong><p>Lun–vie 9–17 · Sáb 8–17</p></div>
+    <a href="https://www.instagram.com/crafteo.3D/">Instagram ↗</a>
+  </footer>
+</body>
+</html>
